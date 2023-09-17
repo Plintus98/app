@@ -1,0 +1,21 @@
+#mainBox{
+    width: 100%;
+    background-color: aqua;
+}
+
+#mainBox .box {
+    width: 400px;
+    height: 200px;
+}
+
+#mainBox .boxRed{
+    background: red
+}
+
+#mainBox .boxGreen{
+    background: green;
+}
+
+#mainBox .boxBlue{
+    background: Blue;
+}
