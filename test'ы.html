@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>РЕГЕСТРАЦИЯ</h1>
+    <form name="signup" action="#" method="post">
+        <div> 
+            <label>Введите логин:</label>
+            <input type="text" name="Username" placeholder="до 32 символов" value="asdfg" />
+        </div>
+        <div> 
+            <label>Введите E-mail:</label>
+            <input type="email" name="email" />
+        </div>
+        <div> 
+            <label>Введите пароль:</label>
+            <input type="password" name="password" />
+        </div>
+        <div>
+            <label>Укажите пол</label>
+            <input type="radio" name="bass" value="0" />Мужской
+            <input type="radio" name="bass" value="1" />Женский
+        </div>
+        <div>
+            <label>Я ознакомлен с правилами</label>
+            <input type="checkbox" name="rules" />
+        </div>
+        <div>
+            <label>Загрузить фото</label>
+            <input type="file" name="avatar" />
+        </div>
+        <div>
+            <label>Год рождения</label>
+            <select name="year">
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+            </select>
+        </div>
+        <div>
+            <textarea placeholder="Введите текст сообщения"></textarea>
+        </div>
+        <input type="submit" name="signup" value="Зарегестрироваться"/>
+
+    </form>
+</body>
+</html>
